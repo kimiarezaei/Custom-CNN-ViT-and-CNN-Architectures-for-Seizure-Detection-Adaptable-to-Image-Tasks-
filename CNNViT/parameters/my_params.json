@@ -1,0 +1,27 @@
+{
+    "architecture": "VITCV",
+    "batch_size": 1024,
+    "epochs": 120,
+    "warmup_period": 20,
+    "learning_rate": 1e-3,
+    "eta_min": 1e-06,
+    "weight_decay": 5e-04,
+    "class_weights": [
+        0.5,
+        14.6
+    ],
+    "use_wandb": true,
+    "scheduler": true,
+    "img_W": 105,
+    "img_H": 113,
+    "kernel_size": 7,
+    "drop_out_stoch": 0.4,
+    "drop_out_att": 0.2,
+    "embedding_dim": 64,
+    "num_heads": 8,
+    "num_blks": 2,
+    "apply_early_stop": false,
+    "stop_threshold": 5,
+    "random_seed": 42,
+    "train_portion": 0.8
+}

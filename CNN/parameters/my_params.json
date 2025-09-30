@@ -1,0 +1,21 @@
+{
+    "architecture": "CNN",
+    "learning_rate": 0.001,
+    "batch_size": 1024,
+    "epochs": 120,
+    "warmup_period": 20,
+    "weight_decay": 1e-05,
+    "eta_min": 1e-06,
+    "class_weights": [
+        0.5,
+        14.6
+    ],
+    "train_portion": 0.8,
+    "random_seed": 42,
+    "initialization": "he",
+    "use_wandb": true,
+    "scheduler": true,
+    "out_channel": 16,
+    "apply_early_stop": false,
+    "stop_threshold": 5
+}
