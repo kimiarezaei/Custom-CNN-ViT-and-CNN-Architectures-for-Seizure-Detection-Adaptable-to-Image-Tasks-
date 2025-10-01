@@ -31,5 +31,5 @@ This method is detailed in the following paper, where it is compared with other 
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/kimiarezaei/ECG-seizure-classification-using-CNN.git
-cd ECG-seizure-classification-using-CNN
+git clone https://github.com/kimiarezaei/Custom-CNN-ViT-and-CNN-Architectures-for-Seizure-Detection-Adaptable-to-Image-Tasks-.git
+cd Custom-CNN-ViT-and-CNN-Architectures-for-Seizure-Detection-Adaptable-to-Image-Tasks-
