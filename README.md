@@ -8,7 +8,7 @@ While designed for ECG data, the models are **fully adaptable for other image cl
 ## Process
 
 1. Customized dataset is build for pytorch
-2. A  5-fold cross validation is conducted in pytorch to train the models using train and validation dataset and then test it on the unseen test set 
+2. A  patient independent 5-fold cross validation is conducted in pytorch to train the models using train and validation dataset and then test it on the unseen test set 
 4. Different measures such as confusion matrix, AUC, Accuracy, MCC, F1 Score were used to evaluate the models performance
 
 ---
